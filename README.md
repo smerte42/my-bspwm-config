@@ -7,3 +7,4 @@ sxhkd
 feh
 xfce4-panel
 xfce4-terminal
+linux
