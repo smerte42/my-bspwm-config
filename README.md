@@ -78,6 +78,12 @@ exec bspwm
 
 xsetroot -cursor_name left_ptr
 
+-----------------------------------------
+
+than put in:
+
+startx
+
 --------------------------------------------
 
 if you have a log in manager just change the session to bspwm
