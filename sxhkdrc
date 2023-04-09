@@ -3,8 +3,8 @@
 #
 
 # terminal emulator
-super + k
-  xfce4-terminal
+super + return
+  [INSERT YOUR TERMINAL HERE]
 
 # make sxhkd reload its configuration files:
 super + Escape
