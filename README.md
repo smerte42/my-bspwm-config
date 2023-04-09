@@ -80,7 +80,7 @@ xsetroot -cursor_name left_ptr
 
 -----------------------------------------
 
-than put in:
+then put in:
 
 startx
 
