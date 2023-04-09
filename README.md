@@ -55,3 +55,33 @@ a terminal of your choice
 
 ---------------------------------------------
 note: you might need sudo to install stuff and copy stuff
+
+---------------------------------------------
+
+if you are using minnium you need to startx it:
+
+first get xinit, xsetroot, and xorg
+
+example:
+
+pacman -S xinit xorg-xsetroot xorg
+
+now put in
+
+cp /etc/X11/xinit/xinitrc ~/.xinitrc
+
+now edit it and get rid of the stuff related to TWM you don't need that out dated shit
+
+put in:
+
+exec bspwm
+
+xsetroot -cursor_name left_ptr
+
+--------------------------------------------
+
+if you have a log in manager just change the session to bspwm
+
+-----------------------------------------------
+
+and this is how to get the worse bspwm configurations in the world
