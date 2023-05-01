@@ -18,8 +18,7 @@ bspc rule -a [insert your web browser here] desktop='^2'
 bspc rule -a mplayer2 state=floating
 bspc rule -a Kupfer.py focus=on
 bspc rule -a Screenkey manage=off
-# delete this if you are not xfce4-panel
 bspc rule -a xfce4-panel layer=below sticky=off \
              manage=on focus=off border=off \
              locked=on
-#insert your panel here
+xfce4-panel
