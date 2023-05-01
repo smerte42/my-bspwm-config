@@ -43,17 +43,9 @@ cp ./bspwmrc .config/bspwm/
 
 cp ./sxhkdrc .config/sxhkd/
 
-edit both files your text editor of choice and put in:
-
-bspwmrc:
+edit bspwmrc to put in this:
 
 a web browser of your choice
-
-a panel of your choice
-
-sxhkdrc:
-
-a terminal of your choice
 
 ---------------------------------------------
 note: you might need sudo to install stuff and copy stuff
