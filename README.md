@@ -69,3 +69,7 @@ startx
 -----------------------------------------------
 
 and this is how to get the worse bspwm configurations in the world
+
+------------------------------------------------
+bspwm: https://github.com/baskerville/bspwm
+sxhkd: https://github.com/baskerville/sxhkd
