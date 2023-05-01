@@ -9,19 +9,21 @@ sxhkd
 
 feh
 
-a bar of your choice
+xfce4-panel
 
-a terminal of your choice
+xfce4-terminal
 
 linux
 
-----------------------------------------------
-how to use:
-first install bspwm, sxhkd, a terminal of your choice [for me it's xfce4-terminal], and a bar of your choice [for me it's xfce4-panel]
+picom
 
-use your package manager for example I use pacman so I put in: pacman -S 
+xorg
 
-bspwm sxhkd, xfce4-terminal, and xfce4-panel
+xsetroot
+
+xinit
+
+use your package manager for example I use pacman so I put in: pacman -S bspwm sxhkd, xfce4-terminal, and xfce4-panel
 
 now after that make 2 directorys in .config: 
 
@@ -58,36 +60,20 @@ note: you might need sudo to install stuff and copy stuff
 
 ---------------------------------------------
 
-if you are using minnium you need to startx it:
+you don't need a DM so let's get rid of it we are going to use xinit.
 
 first get xinit, xsetroot, and xorg
 
 example:
 
-pacman -S xinit xorg-xsetroot xorg
+sudo pacman -S xinit xorg-xsetroot xorg picom
 
 now put in
+cp my-bspwm-config/.xintrc /
 
-cp /etc/X11/xinit/xinitrc ~/.xinitrc
-
-now edit it and get rid of the stuff related to TWM you don't need that out dated shit
-
-put in:
-
-exec bspwm
-
-xsetroot -cursor_name left_ptr
-
------------------------------------------
-
-then put in:
+just put in:
 
 startx
-
---------------------------------------------
-
-if you have a log in manager just change the session to bspwm
-
 -----------------------------------------------
 
 and this is how to get the worse bspwm configurations in the world
