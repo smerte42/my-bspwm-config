@@ -4,8 +4,8 @@
 
 # terminal emulator
 super + return
-  [INSERT YOUR TERMINAL HERE]
-
+    xfce4-terminal 
+    
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
